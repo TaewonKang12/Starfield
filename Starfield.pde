@@ -115,4 +115,4 @@ void draw(){
 s[i].show();
 s[i].move();
   }
-  
+}
