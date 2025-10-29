@@ -2,7 +2,7 @@ class star{
 double X,Y, clr;//start, color
 double dirctX,dirctY;//direction for movement
 int sco;
-star(){
+public star(){
 X = width/2;
 Y = height/2;
 clr = 255;
@@ -42,7 +42,7 @@ dirctY = Math.random()*10-5;
 }
 }
 class odd extends star{
-odd(){
+private odd(){
 X = width/2;
 Y = height/2;
 clr = color((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
